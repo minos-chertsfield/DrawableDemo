@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!--渐变色：放射，必须设置android:gradientRadius
+    如果设置的高宽大于gradientRadius*2的话，那么外围颜色是endColor-->
+    <gradient
+        android:type="radial"
+        android:startColor="#ffff88"
+        android:endColor="#ff8855"
+        android:gradientRadius="100dp"/>
+
+</shape>

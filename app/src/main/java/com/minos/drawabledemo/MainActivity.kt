@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.minos.drawabledemo.activity.BitmapActivity
-import com.minos.drawabledemo.activity.NinePatchActivity
-import com.minos.drawabledemo.activity.ShapeActivity
+import com.minos.drawabledemo.activity.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +26,21 @@ class MainActivity : AppCompatActivity() {
 
         btn_shape.setOnClickListener {
             val intent = Intent(this, ShapeActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_layer.setOnClickListener {
+            val intent = Intent(this, LayerActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_state.setOnClickListener {
+            val intent = Intent(this, StateActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_transition.setOnClickListener {
+            val intent = Intent(this, TransitionActivity::class.java)
             startActivity(intent)
         }
     }

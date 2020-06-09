@@ -29,5 +29,33 @@
         android:layout_width="150dp"
         android:layout_height="60dp"/>
 
+    <Button
+        android:id="@+id/btn_layer"
+        android:text="LayerDrawable"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/btn_state"
+        android:text="StateListDrawable"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/btn_level"
+        android:text="LevelListDrawable"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/btn_transition"
+        android:text="TransitionDrawable"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
 
 </LinearLayout>
