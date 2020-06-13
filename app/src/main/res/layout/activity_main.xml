@@ -1,61 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:gravity="center_horizontal">
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-    <Button
-        android:id="@+id/btn_bitmap"
-        android:text="BitmapDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_bitmap"
+            android:text="BitmapDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-    <Button
-        android:id="@+id/btn_nine_patch"
-        android:text="NinePatchDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_nine_patch"
+            android:text="NinePatchDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-    <Button
-        android:id="@+id/btn_shape"
-        android:text="ShapeDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_shape"
+            android:text="ShapeDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-    <Button
-        android:id="@+id/btn_layer"
-        android:text="LayerDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_layer"
+            android:text="LayerDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-    <Button
-        android:id="@+id/btn_state"
-        android:text="StateListDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_state"
+            android:text="StateListDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-    <Button
-        android:id="@+id/btn_level"
-        android:text="LevelListDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_level"
+            android:text="LevelListDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-    <Button
-        android:id="@+id/btn_transition"
-        android:text="TransitionDrawable"
-        android:textAllCaps="false"
-        android:layout_width="150dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_transition"
+            android:text="TransitionDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
+        <Button
+            android:id="@+id/btn_inset"
+            android:text="InsetDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btn_scale"
+            android:text="ScaleDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn_clip"
+            android:text="ClipDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn_rotate"
+            android:text="RotateDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn_animation"
+            android:text="AnimationDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn_ripple"
+            android:text="RippleDrawable"
+            android:textAllCaps="false"
+            android:layout_width="150dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--不可用-->
+    <item
+        android:state_enabled="false"
+        android:drawable="@color/disabled"/>
+    <!--未按压-->
+    <item
+        android:state_enabled="true"
+        android:state_pressed="false"
+        android:drawable="@color/unPressed"/>
+    <!--获取焦点-->
+    <item
+        android:state_enabled="true"
+        android:state_focused="true"
+        android:drawable="@color/focused" />
+    <!--按压-->
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true"
+        android:drawable="@color/Pressed"/>
+</selector>

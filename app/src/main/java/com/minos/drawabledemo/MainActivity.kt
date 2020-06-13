@@ -39,10 +39,46 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btn_level.setOnClickListener {
+            val intent = Intent(this, LevelActivity::class.java)
+            startActivity(intent)
+        }
+
         btn_transition.setOnClickListener {
             val intent = Intent(this, TransitionActivity::class.java)
             startActivity(intent)
         }
+
+        btn_inset.setOnClickListener {
+            val intent = Intent(this, InsetActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_scale.setOnClickListener {
+            val intent = Intent(this, ScaleActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_clip.setOnClickListener {
+            val intent = Intent(this, ClipActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_rotate.setOnClickListener {
+            val intent = Intent(this, RotateActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_animation.setOnClickListener {
+            val intent = Intent(this, AnimationActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn_ripple.setOnClickListener {
+            val intent = Intent(this, RippleActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onResume() {

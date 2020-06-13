@@ -3,4 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!--按钮状态-->
+    <color name="disabled">#666666</color>
+    <color name="unPressed">#226699</color>
+    <color name="focused">#442266</color>
+    <color name="Pressed">#dd8833</color>
+
+    <color name="lightGrey">#cccccc</color>
 </resources>

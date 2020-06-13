@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:minLevel="0"
+        android:maxLevel="19">
+        <shape android:shape="oval">
+            <solid android:color="#fff"/>
+        </shape>
+    </item>
+
+    <item
+        android:minLevel="20"
+        android:maxLevel="39">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:startColor="#8855ee"
+                android:endColor="#dd8822"/>
+        </shape>
+    </item>
+
+    <item
+        android:minLevel="40"
+        android:maxLevel="59"
+        android:drawable="@drawable/oval_demo1"/>
+
+    <item
+        android:minLevel="60"
+        android:maxLevel="79">
+        <shape android:shape="oval">
+            <gradient
+                android:type="linear"
+                android:angle="0"
+                android:startColor="#4466ee"
+                android:centerColor="#556699"
+                android:endColor="#8866dd"/>
+        </shape>
+    </item>
+
+    <item
+        android:minLevel="80"
+        android:maxLevel="99">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:angle="0"
+                android:startColor="#2255ff"
+                android:centerColor="#ccdd88"
+                android:endColor="#f04f14"/>
+        </shape>
+    </item>
+
+    <item
+        android:minLevel="100"
+        android:maxLevel="100"
+        android:drawable="@drawable/oval_demo3"/>
+
+</level-list>

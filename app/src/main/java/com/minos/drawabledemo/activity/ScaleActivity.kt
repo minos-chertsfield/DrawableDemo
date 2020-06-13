@@ -1,24 +1,27 @@
 package com.minos.drawabledemo.activity
 
-import android.graphics.drawable.LevelListDrawable
 import android.os.Bundle
+import android.util.Log
 import android.widget.SeekBar
 import androidx.appcompat.app.AppCompatActivity
-import com.minos.drawabledemo.R
-import kotlinx.android.synthetic.main.activity_level.*
+import kotlinx.android.synthetic.main.activity_scale.*
+import android.graphics.drawable.ScaleDrawable
 
-class LevelActivity : AppCompatActivity() {
 
+
+
+class ScaleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_level)
+        setContentView(com.minos.drawabledemo.R.layout.activity_scale)
 
-        seek_bar_level.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+        seek_bar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 val max = seekBar.max
-                val drawable = level_img.drawable as LevelListDrawable
-                drawable.level = progress
+                val scale = progress.toDouble() / max
+                val drawable = scale_img.drawable as ScaleDrawable
+                drawable.level = ((10000 * scale).toInt())
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar) {

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.TransitionActivity"></activity>
+        <activity android:name=".activity.RippleActivity"></activity>
+        <activity android:name=".activity.AnimationActivity" />
+        <activity android:name=".activity.RotateActivity" />
+        <activity android:name=".activity.ClipActivity" />
+        <activity android:name=".activity.ScaleActivity" />
+        <activity android:name=".activity.InsetActivity" />
+        <activity android:name=".activity.TransitionActivity" />
         <activity android:name=".activity.StateActivity" />
         <activity android:name=".activity.LevelActivity" />
         <activity android:name=".activity.LayerActivity" />

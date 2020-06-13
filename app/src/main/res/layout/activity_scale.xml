@@ -4,28 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.LevelActivity"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
+    tools:context=".activity.ScaleActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"/>
 
     <ImageView
-        android:id="@+id/level_img"
+        android:id="@+id/scale_img"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/level_demo"/>
+        android:src="@drawable/scale_demo"/>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"/>
 
     <SeekBar
-        android:id="@+id/seek_bar_level"
+        android:id="@+id/seek_bar"
         android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:theme="@style/Widget.AppCompat.SeekBar.Discrete"/>
+        android:layout_height="50dp" />
 
 </LinearLayout>

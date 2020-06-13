@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--不可用，未选中-->
+    <item android:state_enabled="false"
+        android:state_checked="false"
+        android:drawable="@color/disabled"/>
+    <!--不可用，选中-->
+    <item android:state_enabled="false"
+        android:state_checked="true"
+        android:drawable="@color/disabled"/>
+    <!--可用，未选中-->
+    <item android:state_enabled="true"
+        android:state_checked="false"
+        android:drawable="@color/unPressed"/>
+    <!--可用，选中-->
+    <item android:state_enabled="true"
+        android:state_checked="true"
+        android:drawable="@color/Pressed"/>
+</selector>
